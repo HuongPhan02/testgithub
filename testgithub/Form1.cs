@@ -19,10 +19,13 @@ namespace testgithub
 
         private void btCong_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(txtSoA.Text);
-            double b = double.Parse(txtSoB.Text);
-            double c = a + b;
-            txtKetQua.Text = c.ToString();
+            if (txtSoA.Text != String.Empty)
+            {
+                double a = double.Parse(txtSoA.Text);
+                double b = double.Parse(txtSoB.Text);
+                double c = a + b;
+                txtKetQua.Text = c.ToString();
+            }
         }
 
         private void btTru_Click(object sender, EventArgs e)
