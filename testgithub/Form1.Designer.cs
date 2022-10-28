@@ -42,9 +42,9 @@
             // 
             this.btCong.AutoSize = true;
             this.btCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCong.Location = new System.Drawing.Point(515, 284);
+            this.btCong.Location = new System.Drawing.Point(493, 313);
             this.btCong.Name = "btCong";
-            this.btCong.Size = new System.Drawing.Size(83, 39);
+            this.btCong.Size = new System.Drawing.Size(89, 51);
             this.btCong.TabIndex = 0;
             this.btCong.Text = "Cong";
             this.btCong.UseVisualStyleBackColor = true;
@@ -108,9 +108,9 @@
             // 
             this.btTru.AutoSize = true;
             this.btTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btTru.Location = new System.Drawing.Point(165, 284);
+            this.btTru.Location = new System.Drawing.Point(165, 251);
             this.btTru.Name = "btTru";
-            this.btTru.Size = new System.Drawing.Size(83, 39);
+            this.btTru.Size = new System.Drawing.Size(171, 162);
             this.btTru.TabIndex = 0;
             this.btTru.Text = "Tru";
             this.btTru.UseVisualStyleBackColor = true;
